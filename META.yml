@@ -1,0 +1,12 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Net-LDAP-Extension-eDirectoryPassword
+version:      0.00_01
+version_from: eDirectoryPassword.pm
+installdirs:  site
+requires:
+    Convert::ASN1:                 
+    Net::LDAP:                     Net::LDAP::Extension
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.30
